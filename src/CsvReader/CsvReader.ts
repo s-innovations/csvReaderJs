@@ -10,14 +10,12 @@ import CsvReaderColumn = require("./CsvReaderColumn");
 
 class CsvReader {
 
-    importAtRow: KnockoutObservable<number>;
-    columns: KnockoutObservableArray<CsvReaderColumn>;
-
     constructor(private options: CsvReaderOptions) {
-        this.importAtRow = KnockoutUtil.GetObservable<number>(options.importAtRow);
-        this.columns = KnockoutUtil.GetObservableArray<CsvReaderColumn>(options.columns);
     }
 
+
+    importAtRow: KnockoutObservable<number> = KnockoutUtil.GetObservable<number>(this.options.importAtRow);
+    columns: KnockoutObservableArray<CsvReaderColumn> = KnockoutUtil.GetObservableArray<CsvReaderColumn>(this.options.columns);
     columnHeaders = ko.computed(() => {
         var columns = this.columns();
 

@@ -1,0 +1,9 @@
+{
+  "name": "CsvReader",
+  "description": "A Javascript CsvReader model powered by knockout",
+  "version": "1.0.0",
+  "dependencies": {
+    "knockout": "^3.3.0"
+  },
+  "devDependencies": {}
+}

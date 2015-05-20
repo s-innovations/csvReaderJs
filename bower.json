@@ -4,7 +4,8 @@
     "version": "1.0.3",
     "main": "artifacts/dist",
     "ignore": [
-           "**/.*"
+        "src/**/*",
+        "*"
     ],
     "dependencies": {
         "knockout": "^3.3.0"

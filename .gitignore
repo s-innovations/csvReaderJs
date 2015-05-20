@@ -5,6 +5,7 @@
 *.suo
 *.user
 *.sln.docstates
+.bowerrc
 artifacts/src/
 artifacts/local/
 node_modules/

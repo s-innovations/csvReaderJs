@@ -1,0 +1,1 @@
+{"version":3,"file":"CsvReaderDelimiterType.js","sourceRoot":"","sources":["../../../src/CsvReader/CsvReaderDelimiterType.ts"],"names":["CsvReaderDelimiter"],"mappings":";IAEA,IAAK,kBAMJ;IAND,WAAK,kBAAkB;QACnBA,yDAAGA,CAAAA;QACHA,qEAASA,CAAAA;QACTA,6DAAKA,CAAAA;QACLA,6DAAKA,CAAAA;QACLA,6DAAKA,CAAAA;IACTA,CAACA,EANI,kBAAkB,KAAlB,kBAAkB,QAMtB;IAC2B,AAA5B,OAAS,kBAAkB,CAAC"}

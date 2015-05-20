@@ -5,7 +5,8 @@
 *.suo
 *.user
 *.sln.docstates
-artifacts/
+artifacts/src/
+artifacts/local/
 node_modules/
 bower_components/
 

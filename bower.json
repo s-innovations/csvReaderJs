@@ -1,11 +1,12 @@
 {
     "name": "csvReaderJs",
     "description": "A Javascript CsvReader model powered by knockout",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "main": "artifacts/dist",
     "ignore": [
         "src/**/*",
-        "*"
+        "*",
+        "!artifacts/**/*"
     ],
     "dependencies": {
         "knockout": "^3.3.0"

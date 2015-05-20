@@ -33,7 +33,7 @@ module.exports = function (grunt) {
                     declaration: true,
                     watch: {
                         path: ["src"],
-                        after: [],
+                        after: ["requirejs:local"],
                         //  before:[],
                         atBegin: true,
                     },
